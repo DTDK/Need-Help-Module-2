@@ -1,0 +1,21 @@
+
+  <%for (var i = 0; i < 5; i++) {%>
+  <h1>STAR LORD</h1>
+  <% } %>
+  <img src="https://media.giphy.com/media/l0MYEqEzwMWFCg8rm/giphy.gif">
+  <h2><%= profession %></h2>
+  <ul>
+    <% starsTraveled.forEach((starName) => { %>
+      <li> <%= starName   %> </li>
+    <% }) %>
+  </ul>
+  <p>
+    <% if(profession === '*-Lord of the stars-*') { %>
+        Welcome <%= name %>
+    <% } else { %>
+       You are not STAR LORD 
+    <% } %>  
+  </p>
+  
+    
+ 
